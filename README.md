@@ -3,7 +3,7 @@
 ## Track Errors in Ruby on Rails Application with Sentry
 This is a demo of Rails application that has Sentry SDK integrated. Any crash or error that are not captured by the app, would be reported to sentry with context and data for further investigation. Error tracking is extremely important in software development and this is how we tackle it with Rails and Sentry
 
-Accompanying blog post: [Track Errors in Ruby on Rails Application with Sentry](https://dev.to/joker666/deploy-a-ruby-on-rails-api-only-application-in-docker-with-postgresql-1933)
+Accompanying blog post: [Track Errors in Ruby on Rails Application: Beyond the Basics](https://dev.to/joker666/track-errors-in-ruby-on-rails-application-beyond-the-basics-405o)
 
 We create the application with 
 ```bash
