@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+    web:
+        build: .
+        image: sentry/rails
+        restart: "no"
+        environment:
+            - SENTRY_DSN=http://1d0405d68ff04d47bcc61b1e146dea6b@10.0.0.12:9000/2
+        ports:
+            - 3000:3000
